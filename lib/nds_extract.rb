@@ -22,7 +22,6 @@ result = {}
 i = 0
 while i < nds.length do
   name = nds[i][:name] #iterates over the names in directors_database
-  binding.pry #used to check all code ABOVE line 25
   j = 0 #counter for next while loop
 movies = nds[i][:movies]
     gross = 0
