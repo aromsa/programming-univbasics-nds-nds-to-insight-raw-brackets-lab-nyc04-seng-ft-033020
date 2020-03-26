@@ -30,8 +30,7 @@ movies = nds[i][:movies]
       gross += movies[j][:worldwide_gross]
       j += 1
     end
-    # result[name] = gross
-    result[:worldwide_gross] = gross
+    result[name] = gross
     i += 1
   end
 result
