@@ -22,6 +22,7 @@ result = {}
 i = 0
 while i < nds.length do
   name = nds[i][:name]
+  
   j = 0
 movies = nds[i][:movies]
     gross = 0
