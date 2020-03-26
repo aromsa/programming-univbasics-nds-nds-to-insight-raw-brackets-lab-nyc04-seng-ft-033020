@@ -33,6 +33,4 @@ movies = nds[i][:movies]
     i += 1
   end
 result
-  
-  nil
 end
