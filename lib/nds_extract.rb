@@ -21,7 +21,7 @@ def directors_totals(nds)
 result = {}
 i = 0
 while i < nds.length do
-  name = nds[i][:name]
+  name = nds[i][:name] #i
   binding.pry 
   j = 0
 movies = nds[i][:movies]
